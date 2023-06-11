@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow' ,Arial, sans-serif;
+    background-color: aqua;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+form{
+    padding: 10px;
+    height: 450px;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    background-color:burlywood;
+
+}
+
+label{
+    display :block;
+    margin: 1px;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding: 5px;
+    border:1.3px solid rgb(19, 19, 19);
+    border-radius: 3px;
+    width: 110%;
+    margin-bottom: 2px;
+
+}
+select{
+    width:100%;
+    padding: 8px;
+    border:1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: aliceblue;
+    background-color:green;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 15px;
+    
+}
+input[type="submit"]:hover{
+    background-color:blue;
+    
+
+}
+.container{
+    width:700px;
+    margin: auto;
+    height: 1000px;
+}
+div{
+    text-align: center;
+    height: 100px;
+    width: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <img src="profile.png">
+     <h2>* REGISTRATION FORM *</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    NAME :
+                </td>
+                <td>
+                    <input type="text" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    EMAIL :
+                </td>
+                <td>
+                    <input type="text" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PASSWORD :
+                </td>
+                <td>
+                    <input type="password" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PHONE NUMBER :
+                </td>
+                <td>
+                    <input type="tel" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GENDER :
+                </td>
+                <td>
+                    <input type="radio" name="gender">male
+                    <input type="radio" name="gender">female
+                    <input type="radio" name="gender">others
+                </td>
+                <tr>
+                    <td>
+                        <label for="language" style="padding-top: 5px;">LANGUAGE: </label>
+                        <select id="language" style="border: 1.3px solid black; padding: 4px 4px 0px 10px;">
+                            <option value="telugu"name="telugu">TELUGU</option>
+                            <option value="HINDI"name="hindi">HINDI</option>
+                            <option value="english"name="english">ENGLISH</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZIPCODE :
+                        </td>
+                        <td>
+                            <input type="text" name="">
+                        </td>
+    
+        </tr>
+        <tr>
+            <td>
+                ABOUT :
+                </td>
+                <td>
+                    <input type="text" name="">
+                </td>
+
+        </table>
+        <div class="input-name">
+            <input type="submit"class="button"value="Register">
+    </form>
+</body>
+</html>
+</body>
+</html>
